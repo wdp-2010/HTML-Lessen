@@ -16,7 +16,7 @@ HTML Lessen/
 │   ├── .copilot-instructions.md     # Detailed learning state
 │   └── images/ (github.png, youtube.png, sm.png)
 └── CSS-Demos/                       # Advanced reference materials
-    ├── interactive-components.css    # Complex animations & effects
+    ├── interactive-components.css   # Complex animations & effects
     ├── navigation-demo.css          # Modern navigation patterns
     └── improved-style.css           # Professional techniques
 ```
