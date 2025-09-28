@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Interactive Components</title>
+    <link rel="stylesheet" href="interactive-components.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Modern CSS Techniques Demo</h1>
+        
+        <!-- CSS-only Accordion -->
+        <section class="accordion-section">
+            <h2>CSS-Only Accordion (No JavaScript!)</h2>
+            <div class="accordion">
+                <input type="checkbox" id="accordion1" class="accordion-checkbox">
+                <label for="accordion1" class="accordion-label">
+                    🏑 Hockey Tips & Tricks
+                    <span class="accordion-icon">+</span>
+                </label>
+                <div class="accordion-content">
+                    <p>Hockey is een geweldige sport! Hier zijn enkele tips:</p>
+                    <ul>
+                        <li>Oefen je stick handling elke dag</li>
+                        <li>Werk aan je balans op de schaatsen</li>
+                        <li>Leer verschillende schottechnieken</li>
+                    </ul>
+                </div>
+                
+                <input type="checkbox" id="accordion2" class="accordion-checkbox">
+                <label for="accordion2" class="accordion-label">
+                    💻 Programmeer Resources
+                    <span class="accordion-icon">+</span>
+                </label>
+                <div class="accordion-content">
+                    <p>Handige resources voor programmeren:</p>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org">MDN Web Docs</a></li>
+                        <li><a href="https://codepen.io">CodePen</a></li>
+                        <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CSS Card Layout with Advanced Effects -->
+        <section class="cards-section">
+            <h2>Interactive Cards</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="placeholder-image">🏑</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hockey</h3>
+                        <p>Mijn favoriete sport sinds ik klein was. Ik speel al 10 jaar!</p>
+                        <button class="card-button">Meer info</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-image">
+                        <div class="placeholder-image">💻</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Programmeren</h3>
+                        <p>Van HTML tot Python, ik leer graag nieuwe programmeertalen.</p>
+                        <button class="card-button">Projecten</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-image">
+                        <div class="placeholder-image">🐱</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Dieren</h3>
+                        <p>Ik hou van dieren, vooral mijn kat die altijd grappig is.</p>
+                        <button class="card-button">Foto's</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CSS Loading Animations -->
+        <section class="animations-section">
+            <h2>Coole Animaties</h2>
+            <div class="animation-showcase">
+                <div class="spinner"></div>
+                <div class="pulse-dot"></div>
+                <div class="bouncing-balls">
+                    <div class="ball"></div>
+                    <div class="ball"></div>
+                    <div class="ball"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Form Styling -->
+        <section class="form-section">
+            <h2>Modern Form Design</h2>
+            <form class="modern-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Jouw naam</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email adres</label>
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Bericht</label>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    <span>Versturen</span>
+                    <div class="button-ripple"></div>
+                </button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
