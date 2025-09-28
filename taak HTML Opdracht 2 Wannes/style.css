@@ -1,3 +1,12 @@
+:root {
+	--github-color: #333;
+	--youtube-color: #ff0000;
+	--smartschool-color: #4285f4;
+	--shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	--transition: all 0.3s ease;
+}
+
+
 img {
     border: 3px solid white;
     border-radius: 10px;
@@ -5,10 +14,27 @@ img {
     padding: 10px;
 }
 img:hover {
-	transform: translateX(10px);
+	transform: translateY(-5px);
 	transition: transform 0.3s ease;
 }
 
 .text {
-	font-size: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.logos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+}
+
+.card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: var(--shadow);
+	padding: 20px;
+	text-align: center;
+	transition: var(--transition);
 }
